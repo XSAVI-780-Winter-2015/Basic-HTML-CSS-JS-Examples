@@ -2,6 +2,7 @@ body {
   background-color: #c7e9c0;
 }
 
+
 h2 {
   font-family: Verdana;
   font-weight: bold;
@@ -11,11 +12,11 @@ h2 {
   color: #acd1b2;
 }
 
+
 img {
   height: 300px;
   width: 300px;
   box-shadow: rgba(0,0,0,0.2) 10px 10px;
-
 }
 
 #navbar {
@@ -48,7 +49,6 @@ li {
 }
 
 #left{
-  width: 45%;
   float: left;
 }
 
@@ -58,7 +58,6 @@ p {
 }
 
 #right{
-  width: 45%;
   float: right;
 }
 
@@ -100,14 +99,14 @@ th {
 #footer{
   clear: both;
   position: relative;
-  bottom: -20px;
+  bottom: 0px;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
   height: 75px;
   background-color: #005a32;
 }
 
-#button{
+.button{
   border: 2px solid #000000;
   float:left;
   position: relative;
@@ -120,7 +119,7 @@ th {
   
 }
 
-#button p{
+.button p{
   position: relative;
   bottom: 10px;
   font-size: 0.8em;
